@@ -1,0 +1,95 @@
+@import "global";
+
+.card {
+  border-style: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.header {
+  h2 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+  }
+
+  .lead {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    color: hsl(218, 22%, 67%);
+  }
+}
+
+.monthly-sub {
+  background-color: hsl(179, 62%, 43%);
+  border-bottom-left-radius: 10px;
+  width: 100%;
+
+  h3 {
+    color: #fff;
+  }
+
+  .monthly-price {
+    p {
+      margin: 0;
+      color: hsl(204, 43%, 93%);
+      opacity: 0.6;
+    }
+    .price {
+      font-size: 2rem;
+      color: #fff;
+      opacity: 1;
+      font-weight: 700;
+      margin-right: 0.5rem;
+    }
+  }
+
+  p {
+    color: #fff;
+    opacity: 0.8;
+  }
+
+  button {
+    width: 100%;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    text-decoration: none;
+    background: hsl(71, 73%, 54%);
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+  }
+}
+
+.why-us {
+  background-color: hsl(179, 62%, 43%);
+  opacity: 0.8;
+  border-bottom-right-radius: 10px;
+
+  width: 100%;
+
+  h3 {
+    color: #fff;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    color: hsl(204, 43%, 93%);
+    opacity: 0.8;
+  }
+}
+
+// Attribution styles
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

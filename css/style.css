@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.card {
+  border-style: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.header h2 {
+  color: #2ab2af;
+  font-weight: 700;
+}
+
+.header .lead {
+  color: #c0df34;
+  margin-bottom: 0.25rem;
+}
+
+.header p {
+  color: #98a6bd;
+}
+
+.monthly-sub {
+  background-color: #2ab2af;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+}
+
+.monthly-sub h3 {
+  color: #fff;
+}
+
+.monthly-sub .monthly-price p {
+  margin: 0;
+  color: #e5eff5;
+  opacity: 0.6;
+}
+
+.monthly-sub .monthly-price .price {
+  font-size: 2rem;
+  color: #fff;
+  opacity: 1;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.monthly-sub p {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.monthly-sub button {
+  width: 100%;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  text-decoration: none;
+  background: #c0df34;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.why-us {
+  background-color: #2ab2af;
+  opacity: 0.8;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+}
+
+.why-us h3 {
+  color: #fff;
+}
+
+.why-us p {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  color: #e5eff5;
+  opacity: 0.8;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 992px) {
+  .monthly-sub {
+    border-bottom-left-radius: 0px !important;
+  }
+
+  .why-us {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .rwd-break {
+    display: none;
+  }
+}
